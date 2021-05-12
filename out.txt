@@ -1,0 +1,40 @@
+/etc/apport/crashdb.conf:default = 'ubuntu'
+/etc/apport/crashdb.conf:        dcd = open('/var/lib/ubuntu_dist_channel').read()
+/etc/apport/crashdb.conf:    'ubuntu': {
+/etc/apport/crashdb.conf:        'bug_pattern_url': 'http://people.canonical.com/~ubuntu-archive/bugpatterns/bugpatterns.xml',
+/etc/apport/crashdb.conf:        'dupdb_url': 'http://people.canonical.com/~ubuntu-archive/apport-duplicates',
+/etc/apport/crashdb.conf:        'distro': 'ubuntu',
+/etc/apport/crashdb.conf:        'bug_pattern_url': 'http://people.canonical.com/~ubuntu-archive/bugpatterns/bugpatterns.xml',
+/etc/appstream.conf:[ubuntu]
+/etc/appstream.conf:ScreenshotUrl=http://screenshots.ubuntu.com
+/etc/ubuntu-advantage/uaclient.conf:data_dir: /var/lib/ubuntu-advantage
+/etc/ubuntu-advantage/uaclient.conf:log_file: /var/log/ubuntu-advantage.log
+/etc/init/whoopsie.conf:env CRASH_DB_URL=https://daisy.ubuntu.com
+/etc/depmod.d/ubuntu.conf:search updates ubuntu built-in
+/etc/PackageKit/Vendor.conf:DefaultUrl=https://help.ubuntu.com/community/Repositories/
+/etc/systemd/timesyncd.conf:#FallbackNTP=ntp.ubuntu.com
+/etc/speech-dispatcher/modules/espeak-ng-mbrola-generic.conf:# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+/etc/speech-dispatcher/modules/espeak-mbrola-generic.conf:# Copyright (C) 2014 Luke Yelavich <themuso@ubuntu.com>
+/etc/speech-dispatcher/speechd.conf:# Copyright (C) 2014-2016 Luke Yelavich <themuso@ubuntu.com>
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:    <allow own="com.ubuntu.WhoopsiePreferences"/>
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:    <allow send_destination="com.ubuntu.WhoopsiePreferences" 
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:           send_interface="com.ubuntu.WhoopsiePreferences"/>
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:    <allow send_destination="com.ubuntu.WhoopsiePreferences" 
+/etc/dbus-1/system.d/com.ubuntu.WhoopsiePreferences.conf:    <allow send_destination="com.ubuntu.WhoopsiePreferences" 
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:    <allow own="com.ubuntu.USBCreator"/>
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:    <allow send_destination="com.ubuntu.USBCreator" 
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:           send_interface="com.ubuntu.USBCreator"/>
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:    <allow send_destination="com.ubuntu.USBCreator" 
+/etc/dbus-1/system.d/com.ubuntu.USBCreator.conf:    <allow send_destination="com.ubuntu.USBCreator" 
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:                <allow own="com.ubuntu.LanguageSelector"/>
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:    		<allow send_interface="com.ubuntu.LanguageSelector"/>
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:		<allow receive_interface="com.ubuntu.LanguageSelector"
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:   		       receive_sender="com.ubuntu.LanguageSelector"/>
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:		<allow send_destination="com.ubuntu.LanguageSelector"
+/etc/dbus-1/system.d/com.ubuntu.LanguageSelector.conf:		<allow send_destination="com.ubuntu.LanguageSelector"
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:    <allow own="com.ubuntu.SoftwareProperties"/>
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:    <allow send_destination="com.ubuntu.SoftwareProperties"
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:           send_interface="com.ubuntu.SoftwareProperties"/>
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:    <allow send_destination="com.ubuntu.SoftwareProperties"
+/etc/dbus-1/system.d/com.ubuntu.SoftwareProperties.conf:    <allow send_destination="com.ubuntu.DeviceDriver"
+/etc/sysctl.d/10-ptrace.conf:# https://wiki.ubuntu.com/SecurityTeam/Roadmap/KernelHardening#ptrace

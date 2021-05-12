@@ -1,1 +1,2 @@
-# linuxstudy
+# linuxstu
+todo 
